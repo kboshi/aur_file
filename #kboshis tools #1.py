@@ -60,6 +60,3 @@ if __name__ == "__main__":
     run_command("pacman-key --lsign-key 9D5F1C051D146843CDA4858BDE64825E7CBC0D51")
     run_command("pacman -Syuu")
     print("archstrike installed")
-    print("one more thing I have to do")
-    run_command("wget -q -O chaotic-AUR-installer.bash https://raw.githubusercontent.com/SharafatKarim/chaotic-AUR-installer/main/install.bash && sudo bash chaotic-AUR-installer.bash && rm chaotic-AUR-installer.bash")
-    print("chaotic aur installed")
